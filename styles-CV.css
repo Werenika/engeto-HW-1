@@ -1,0 +1,109 @@
+/* color and font definition*/
+:root {
+  --bc-color: #ffcce6;
+  --bc-color2: #ffedf6;
+  --tc-header: #ff0085;
+}
+
+body {
+  font-family: Barlow, Ubuntu, sans-serif;
+  line-height: 1.5;
+  color: var(--tc-header);
+  background-color: var(--bc-color2);
+}
+
+/* layout definition*/
+.container {
+  box-shadow: 15px 10px 15px rgba(42, 0, 90, 0.1);
+  box-sizing: border-box;
+  width: 800px;
+  margin: auto;
+  background-color: var(--bc-color);
+  border-radius: 25px;
+  border: 2px solid var(--bc-color);
+}
+
+.info {
+  background-color: var(--bc-color2);
+  padding: 5px;
+}
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+/* image definition*/
+.image-big {
+  height: 289px;
+  width: 780px;
+  border-radius: 25px;
+}
+
+.image-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--bc-color2);
+}
+
+.image-big,
+.image-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+/* text definition*/
+h1 {
+  color: var(--tc-header);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+h2 {
+  color: var(--tc-header);
+  border-bottom: 2px solid var(--bc-color2);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* links */
+a:link {
+  color: var(--tc-header);
+  text-decoration: none;
+  cursor: pointer;
+}
+a:active {
+  color: red;
+}
+a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+.special-text {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.list-name {
+  font-weight: bold;
+}
+
+table {
+  padding: 20px;
+}
+
+ul {
+  margin: 10px;
+}
